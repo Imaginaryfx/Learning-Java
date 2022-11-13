@@ -28,11 +28,11 @@ public class Have_You_Passed_Your_Exam {
         float sub2percentage = marks2*100/outOf2;
         float sub3percentage = marks3*100/outOf3;
 
-        float totalpercentage = (marks1 + marks2 + marks3)*100/(outOf1 + outOf2 + outOf3);
+        float totalPercentage = (marks1 + marks2 + marks3)*100/(outOf1 + outOf2 + outOf3);
 
-        System.out.println("Your total Percentage = " + totalpercentage + " %");
+        System.out.println("Your total Percentage = " + totalPercentage + " %");
 
-        if (totalpercentage>40 && sub1percentage>=33 && sub2percentage>=33 && sub3percentage>=33) {
+        if (totalPercentage>40 && sub1percentage>=33 && sub2percentage>=33 && sub3percentage>=33) {
             System.out.println("You Are Pass!");
         }
         else {
