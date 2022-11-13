@@ -5,7 +5,7 @@ public class Leap_Year_Indicator {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter Year : ");                    //Q.05
+        System.out.print("Enter Year : ");
         int year;
         year = sc.nextInt();
 
