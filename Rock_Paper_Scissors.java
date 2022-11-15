@@ -14,6 +14,17 @@ public class Rock_Paper_Scissors {
 
         if (s1.equalsIgnoreCase("R") || s1.equalsIgnoreCase("P") || s1.equalsIgnoreCase("S")) {
 
+            if (s1.equalsIgnoreCase("P")){
+                System.out.println("You Chose - Paper");
+            }
+            if (s1.equalsIgnoreCase("R")){
+                System.out.println("You Chose - Rock");
+            }
+            if (s1.equalsIgnoreCase("S")){
+                System.out.println("You Chose - Scissors");
+            }
+
+            
             int rnd1 = rnd.nextInt(3)+1;
 
             if (rnd1 == 1){
