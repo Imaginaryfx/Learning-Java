@@ -13,10 +13,10 @@ public class Leap_Year_Indicator {
             System.out.println("Please Enter Year More Than 1752,\nBecause 1752 Was The First Leap Year In The Modern Sense In Britain.");
         }
         if (year%4==0) {
-            System.out.println(year + " A Leap Year.");
+            System.out.println(year + " - A Leap Year.");
         }
         else {
-            System.out.println(year + " Not A Leap Year.");
+            System.out.println(year + " - Not A Leap Year.");
         }
     }
 }
